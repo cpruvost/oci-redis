@@ -19,7 +19,7 @@ $env:TF_VAR_availability_domain="Vihs:EU-FRANKFURT-1-AD-1"
 
 ### Redis Cluster
 $env:TF_VAR_redis_cluster_name="MyRedisClusterIAS"
-$env:TF_VAR_redis_cluster_node_count="1"
+$env:TF_VAR_redis_cluster_node_count="2"
 $env:TF_VAR_redis_cluster_node_memory_in_gbs="2"
 $env:TF_VAR_redis_cluster_software_version="V7_0_5"
 $env:TF_VAR_redis_cluster_state="ACTIVE"
